@@ -19,7 +19,7 @@ Route::get('/config-cache', function() {
 });
 
 // Luego ir a la direccion dominio/foo
-// luego editar dotas las vistas que tienen las imagenes y ponerle la palabra public. Tiene que quedar así:
+// luego editar dotas las vistas que tienen las imagenes y ponerle la palabra public. Tiene que quedar así: xD
 // https://mascotas.municastilla.gob.pe/public/storage/fotos/6XCZZM71wruuGF5I2CGB4CunGGDPCncIPT35uuaq.jpg
 // En las vitas pon esto 'https://mascotas.municastilla.gob.pe/public/'.$mascota->foto
 
