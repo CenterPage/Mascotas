@@ -66,7 +66,7 @@
                 <strong>Apellidos:</strong> {{ Illuminate\Support\Str::title($mimascota->apellidos_adulto) }}
             </li>
             <li class="list-group-item color-box">
-                <strong>Celular:</strong> {{ $mimascota->celular }}
+                <strong>DNI:</strong> {{ $mimascota->celular }}
             </li>
             <li class="list-group-item color-box">
                 <strong>Dirección:</strong> {{ Illuminate\Support\Str::title($mimascota->direccion) }}

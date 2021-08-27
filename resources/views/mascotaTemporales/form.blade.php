@@ -60,7 +60,7 @@
                 <label for="inputCity">Fecha Nacimiento</label>
                 <input type="date"
                     name="fecha_nacimiento"
-                    min="2015-01-01" max="2030-12-31"
+                    min="2010-01-01" max="2030-12-31"
                     required
                     class="form-control @error('fecha_nacimiento') is-invalid  @enderror"
                     value="<?php
