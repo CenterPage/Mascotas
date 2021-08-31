@@ -63,11 +63,7 @@
                     min="2010-01-01" max="2030-12-31"
                     required
                     class="form-control @error('fecha_nacimiento') is-invalid  @enderror"
-                    value="<?php
-                            echo $_SERVER["REQUEST_URI"] ?
-                            date("Y-m-d") :
-                            date("Y-m-d", strtotime($mimascota->fecha_nacimiento));
-                        ?>" {{-- REEMPLAZA EL date("Y-m-d") POR DATE("", strtotime) --}}
+                    value="<?php date("Y-m-d")?>" {{-- REEMPLAZA EL date("Y-m-d") POR DATE("", strtotime) --}}
                     id="inputCity"
                 >
 

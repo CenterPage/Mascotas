@@ -28,7 +28,7 @@
 <div class="container mt-5 mb-4">
     <div class="row">
         <div class="col-12 col-lg-6 img-block-tres">
-            <img class="img-fluid img-home" src="/img/pasos.svg" alt="Desarrollo Web">
+            <img class="img-fluid img-home" src="{{ asset('img/pasos.svg') }}" alt="Desarrollo Web">
         </div>
         <div class="col-12 col-lg-6 my-auto">
             <h1 class="display-4 text-secondary text-center font-weight-bold">Sigue los pasos</h1>
